@@ -1,0 +1,433 @@
+*{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+        background-image: url("13.avif");
+        background-repeat: no-repeat;
+        background-size: 1550px 600px;
+        
+}
+
+.logo img{
+    max-width: 3rem;
+    margin: 0.5rem;
+    height: 3rem;
+   
+}
+ 
+header{
+    position: fixed;
+    top: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    margin-left: -110px; 
+    margin-top: -10px;   
+}
+
+.navbar a{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.front{
+    color: white;
+    
+}
+
+.front img{
+    display: flex;
+    justify-content: center;
+    max-width: 3rem;
+    margin-top: 5rem;
+    margin-left: 11rem;
+    max-width: 10rem;
+    height: 10rem;
+}
+
+.front h1{
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-left: 28px;
+    padding-top: 7px;
+    border-radius: 0%;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.front p{
+    margin-top: 20px;
+    margin-left: 80px;
+    padding-left: 30px;
+    font-size: x-large  ;
+    font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+}
+
+button {
+    margin-left: 77px;
+    width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(245, 13, 206);
+    background-color: burlywood;
+    font-size: 0.95rem;
+}
+
+.icons {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+     float: right;
+     margin-left: 10px;
+     margin-top: -25px;
+     margin-right: 10px;
+     padding-top: -40px;
+    
+}
+.search-bar{
+    width: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icons i:hover{
+        color: gold;
+        cursor: pointer;
+}
+
+
+/* Hero section styling */
+.hero {
+    background-image: url('home.jpg');
+    margin-top: 140px;
+    max-width: 100rem;
+    max-height: 100rem;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    margin-top: 10px;
+    font-size: 3rem;
+    color: aqua;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: slateblue;
+}
+
+.btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+
+/* About Section */
+.info{
+    margin-top: -200px;
+    background-image: url('about2.jpg');
+    max-height: 100rem;
+    
+}
+
+.info h1{
+    color: aqua;
+    font-family: cursive;
+    margin-top: 200px;
+}
+
+.info p{
+    color: rgb(0, 255, 4);
+    font-size: 1.6rem;
+}
+
+/* Menu section styling */
+.menu-section {
+    background-image: url('menu2.avif');
+    background-repeat: no-repeat;
+    background-size: 1520px 1100px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #090909;
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.menu-item p {
+    margin-bottom: 1rem;
+    margin-top: 2px;
+    margin-left: -10px;
+    color: white;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+.pasta{
+    max-width: 10rem;
+    margin-left:10px;
+    height: 8rem;
+}
+
+
+/* Contact section styling */
+.contact{
+    background-image: url('contact.webp');
+    
+
+}
+
+.contact h2{
+    color: white;
+}
+.contact form {
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    padding: 7px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.button{
+width:16%;
+height: 2rem;
+color: brown;
+background-color: violet;
+border: 2px solid black;
+border-radius: 5px;
+margin-bottom: 3px;
+margin-left: 300px;
+}
+
+#face{
+    max-width: 2rem;
+    margin: 0.5rem;
+    height: 2rem;
+    float: right;
+    margin-top: -195px;
+}
+
+#insta{
+    max-width: 2rem;
+    margin: 0.5rem;
+    height: 2rem;
+    float: right;
+    margin-top: -145px;
+}
+
+#thread{
+    max-width: 2rem;
+    margin: 0.5rem;
+    height: 2rem;
+    float: right;
+    margin-top: -95px;
+}
+
+#twitter{
+    max-width: 2rem;
+    margin: 0.5rem;
+    height: 2rem;
+    float: right;
+    margin-top: -45px;
+}
+
+/* Review Section Styling */
+.review{
+    background-image: url('reviw.webp');
+    background-repeat: no-repeat;
+    background-size: 1530px 340px;
+
+}
+
+.star-rating {
+    display: inline-flex;
+    font-size: 2rem;
+    direction: ltr; /* Now, direction is back to normal */
+}
+
+.star {
+    cursor: pointer;
+    color: #ccc; /* Default star color */
+    transition: color 0.2s ease-in-out;
+}
+
+.star.hover,
+.star.selected {
+    color: #f39c12; /* Color of stars on hover and when selected */
+}
+
+.review textarea{
+    width: 50%;
+    margin: -9px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.but{
+    width:16%;
+    height: 1.5rem;
+    color: rgb(9, 21, 249);
+    background-color: rgb(212, 238, 47);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    }
+
+    #output{
+        color: white;
+        margin-left: 10px;
+        
+        
+    }
+
+ /* Blog Section Styling */
+    
+    .container {
+        background-image: url('blog.jpeg');
+        background-size: 1150px 600px;
+        max-width: 100rem;
+    }
+    
+    #blogs {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #blogs h2 {
+        text-align: center;
+        color: #f3ebeb;
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+    
+    .blog-posts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .blog-post {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        width: calc(33% - 20px);
+        overflow: hidden;
+    }
+    
+    .blog-post img {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #e0e0e0;
+    }
+    
+    .blog-post-content {
+        padding: 20px;
+    }
+    
+    .blog-post-content h3 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .blog-post-content p {
+        color: #666;
+        line-height: 1.6;
+    }
+    
+    .load-more {
+        display: block;
+        width: 200px;
+        margin: 40px auto 0;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .load-more:hover {
+        background-color: #555;
+    }
+    
+   /* Searched Content Styling */
+  
+   #searchResults {
+    margin-top: 20px;
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+}
